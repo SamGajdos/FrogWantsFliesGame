@@ -17,7 +17,3 @@ var config = {
 
 var game = new Phaser.Game(config);
 var field_size = 60;
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}

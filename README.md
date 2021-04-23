@@ -1,8 +1,10 @@
 # FrogWantsFliesGame
-Hello, this is a simple puzzle game made in Phaser3.
+Hello, this is a very simple puzzler game made in Phaser3.
 
 The main point of the game is to collect all golden flies and get to the finish position.
-You have to be careful though. After you pass a path (a water lily), the path will disappear.
+After you pass a path (a water lily), it sinks and cannot be passed over again. Becareful not to trap yourself.
 You can press "R" for restarting a level. 
 
 During this project, I was also learning OOP programming and Javascript language as a whole.
+
+Inspiration of the game: The Misadventures of Randolph Doogleberry

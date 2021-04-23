@@ -4,7 +4,7 @@ class FrogPredict extends Phaser.GameObjects.Sprite {
 		super(scene, x, y, "frog_predict");
 		this.initEntity();
 		
-    }
+    	}
 	
 	initEntity() {
 		this.scene.physics.world.enable(this);

@@ -10,7 +10,7 @@ class Frog extends Phaser.GameObjects.Sprite {
 		this.initEntity();
 		
 		Frog.count++;
-    }
+    	}
 	
 	
 	initVars() {
@@ -35,7 +35,7 @@ class Frog extends Phaser.GameObjects.Sprite {
 	initKeys() {
 		switch(Frog.count) {
 			case 0:
-				this.keys = [this.scene.cursorKeys.left, 					this.scene.cursorKeys.right, this.scene.cursorKeys.up, this.scene.cursorKeys.down];
+				this.keys = [this.scene.cursorKeys.left, this.scene.cursorKeys.right, this.scene.cursorKeys.up, this.scene.cursorKeys.down];
 				break;
 				
 			case 1:
